@@ -1,7 +1,7 @@
 svn-custom-depth
 ================
-A utility for determining if directories in a SVN checkout have custom depth
-information.
+A utility for determining if files in a SVN checkout have custom depth
+settings.
 
 The current project page is located here:
 <https://github.com/bbrice/svn-custom-depth>
