@@ -18,7 +18,7 @@ this information again.
 
 Building
 --------
-At the moment, Visual Studio 2013.4 is used for this project.
+At the moment, Visual Studio 2013.5 is used for this project.
 
 Usage
 -----
