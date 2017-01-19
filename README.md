@@ -16,7 +16,6 @@ on that directory to ignore changes in that directory:
 files I had set custom depths on, so I made this utility for helping me find
 this information again.
 
-
 Building
 --------
 At the moment, Visual Studio 2013.4 is used for this project.
