@@ -21,8 +21,10 @@ namespace svn_custom_depth
             {
                 try
                 {
+                    string workingDirectory = Path.GetFullPath(dir);
+
                     var procInfo = new ProcessStartInfo();
-                    procInfo.WorkingDirectory = dir;
+                    procInfo.WorkingDirectory = workingDirectory;
                     procInfo.FileName = "svn";
                     procInfo.Arguments = "info --xml -R";
                     procInfo.UseShellExecute = false;
@@ -37,14 +39,9 @@ namespace svn_custom_depth
                     foreach (var element in elements)
                     {
                         if (element is XAttribute)
-                        {
-                            var fullPath = Path.GetFullPath(Path.Combine(procInfo.WorkingDirectory, ((XAttribute)element).Value));
-                            Console.WriteLine(fullPath);
-                        }
+                            Console.WriteLine(Path.Combine(workingDirectory, ((XAttribute)element).Value));
                         else if (element is XText)
-                        {
                             Console.WriteLine("    " + ((XText)element).Value);
-                        }
                     }
                 }
                 catch (Exception e)
