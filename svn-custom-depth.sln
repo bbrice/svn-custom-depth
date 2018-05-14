@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "svn-custom-depth", "svn-custom-depth.csproj", "{384BE0C4-AD46-46EE-8C21-EB254A7FC37E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "svn-custom-depth", "svn-custom-depth.csproj", "{8BEFD9C6-3BA5-4EA1-8D3A-572CA68872AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{384BE0C4-AD46-46EE-8C21-EB254A7FC37E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{384BE0C4-AD46-46EE-8C21-EB254A7FC37E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{384BE0C4-AD46-46EE-8C21-EB254A7FC37E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{384BE0C4-AD46-46EE-8C21-EB254A7FC37E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BEFD9C6-3BA5-4EA1-8D3A-572CA68872AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BEFD9C6-3BA5-4EA1-8D3A-572CA68872AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BEFD9C6-3BA5-4EA1-8D3A-572CA68872AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BEFD9C6-3BA5-4EA1-8D3A-572CA68872AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {650F65D4-4B3F-4830-9817-6190E642D4C1}
 	EndGlobalSection
 EndGlobal
