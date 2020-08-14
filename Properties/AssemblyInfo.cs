@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Brian Brice")]
 [assembly: AssemblyProduct("svn-custom-depth")]
-[assembly: AssemblyCopyright("Copyright ©  2018, Brian Brice")]
+[assembly: AssemblyCopyright("Copyright ©  2020, Brian Brice")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
