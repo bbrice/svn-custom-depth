@@ -4,7 +4,7 @@ A utility for determining if files in a SVN checkout have custom depth
 settings.
 
 The current project page is located here:
-<https://github.com/bbrice/svn-custom-depth>
+<https://github.com/blb2/svn-custom-depth>
 
 Motivation
 ----------
@@ -26,9 +26,9 @@ This application can take directory paths as arguments.  If no path is given,
 then the current directory is used.
 
 	gaia:~$ svn-custom-depth svn-project
-	/home/bbrice/svn-project/large-dir
+	/home/b/svn-project/large-dir
 		exclude
-	/home/bbrice/svn-project/large-file.zip
+	/home/b/svn-project/large-file.zip
 		exclude
 
 License
